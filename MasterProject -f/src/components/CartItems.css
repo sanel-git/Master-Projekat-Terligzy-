@@ -1,0 +1,111 @@
+.cartitems{
+    margin: 80px 130px;
+}
+.cartitems hr{
+    height: 2px;
+    background: #674636;
+    border: 0;
+}
+.cartitems-format-main{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 75px;
+    padding: 20px 0px;
+    color: #674636;
+    font-size: 18px;
+    font-weight: 600;
+}
+.cartitems-format{
+    margin-left: 35px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.carticon-product-icon{
+    height: 60px;
+    margin-right: 10px;
+    margin-left: -10px;
+}
+.cart-items-remove-icon{
+    margin: 0px 30px;
+    width: 12px;
+    cursor: pointer;
+}
+.cartitems-quantity{
+    width: 64px;
+    height: 50px;
+    border: 2px solid #674636;
+    background: #fff8e8;
+    color: #674636;
+    font-weight: 450;
+}
+.cartitems-down{
+    display: flex;
+    margin: 100px 0px;
+}
+.cartitems-total{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 160px;
+    gap: 35px;
+}
+.cartitems-total h1{
+    color: #674636;
+    font-weight: bold;
+}
+.cartitems-total-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0px;
+    color: #674636;
+    font-weight: bold;
+}
+.cartitems-total button{
+    width: 250px;
+    height: 50px;
+    outline: none;
+    border: none;
+    background: #674636;
+    color: #F7EED3;
+    border-radius: 75px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.cartitems-promocode{
+    flex: 1;
+    font-size: 16px;
+    font-weight: 600;
+}
+.cartitems-promocode p{
+    color: #674636;
+}
+.cartitems-promobox{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    margin-top: 15px;
+    height: 50px;
+}
+.cartitems-promobox input{
+    border: none;
+    outline: none;
+    background: #F7EED3;
+    border-radius: 75px;
+    padding-left: 15px;
+    font-size: 16px;
+    width: 330px;
+    color: #674636;
+    height: 50px;
+}
+.cartitems-promobox button{
+    width: 170px;
+    border: none;
+    outline: none;
+    height: 50px;
+    font-size: 16px;
+    background: #674636;
+    color: #F7EED3;
+    border-radius: 75px;
+    cursor: pointer;
+}

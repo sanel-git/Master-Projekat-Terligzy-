@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(180deg, #fff8E8, #AAB396 60%);
+    margin: 0;
+    font-family: 'Montserrat';
+}
